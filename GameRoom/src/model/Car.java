@@ -19,4 +19,10 @@ public class Car extends Toy {
     public CarType getCarType() {
         return carType;
     }
+
+    @Override
+    public String toString() {
+        return "CAR " + getCost() + " " + getSize().toString() + " " +
+                getMinAge() + " " + getCarType().toString();
+    }
 }

@@ -22,4 +22,10 @@ public class Cube extends Toy {
     public int getNumberOfFaces() {
         return numberOfFaces;
     }
+
+    @Override
+    public String toString() {
+        return "CUBE " + getCost() + " " + getSize().toString() + " " +
+                getMinAge() + " " + getNumberOfFaces();
+    }
 }

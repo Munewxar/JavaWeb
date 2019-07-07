@@ -19,4 +19,10 @@ public class Ball extends Toy{
     public BallType getBallType() {
         return ballType;
     }
+
+    @Override
+    public String toString() {
+        return "BALL " + getCost() + " " + getSize().toString() + " " +
+                getMinAge() + " " + getBallType().toString();
+    }
 }

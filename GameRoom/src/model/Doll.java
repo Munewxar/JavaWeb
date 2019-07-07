@@ -19,4 +19,10 @@ public class Doll extends Toy {
     public Sex getSex() {
         return sex;
     }
+
+    @Override
+    public String toString() {
+        return "DOLL " + getCost() + " " + getSize().toString() + " " +
+                getMinAge() + " " + getSex().toString();
+    }
 }
